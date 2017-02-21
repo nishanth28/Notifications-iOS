@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Notify" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="nKW-Dm-VDH">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.41093332256589615" green="1" blue="0.69470593758991783" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7lq-Zf-Fdz" customClass="RoundedButton" customModule="Notify" customModuleProvider="target">
+                                <rect key="frame" x="54" y="380" width="212" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="sLh-7H-cDK"/>
+                                </constraints>
+                                <state key="normal" title="Cancel Notifcation"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmh-5g-Nxq" customClass="RoundedButton" customModule="Notify" customModuleProvider="target">
+                                <rect key="frame" x="54" y="329" width="212" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="9qS-FN-ZsJ"/>
+                                </constraints>
+                                <state key="normal" title="Show Scheduled Notification"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="euG-8J-hoB" customClass="RoundedButton" customModule="Notify" customModuleProvider="target">
+                                <rect key="frame" x="54" y="273" width="212" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="vN6-zF-45U"/>
+                                </constraints>
+                                <color key="tintColor" red="0.99989169840000003" green="1" blue="0.99988096950000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Notification with Location"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CV3-Xi-Rqu" customClass="RoundedButton" customModule="Notify" customModuleProvider="target">
+                                <rect key="frame" x="54" y="216" width="212" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="Krf-lo-8bD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Nofitication with Media"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hle-vu-t1g" customClass="RoundedButton" customModule="Notify" customModuleProvider="target">
+                                <rect key="frame" x="54" y="163" width="212" height="36"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="BNT-4a-OFA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Notification with Sounds"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fb1-tc-iV8" customClass="RoundedButton" customModule="Notify" customModuleProvider="target">
+                                <rect key="frame" x="54" y="110" width="212" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="6lT-he-5z2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Local Notification"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBh-qy-xpb" customClass="RoundedButton" customModule="Notify" customModuleProvider="target">
+                                <rect key="frame" x="54" y="434" width="212" height="36"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="D1J-fJ-e7M"/>
+                                </constraints>
+                                <state key="normal" title="Clear Notification"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bmh-5g-Nxq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="38" id="2E2-aw-NVJ"/>
+                            <constraint firstItem="CV3-Xi-Rqu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="4ag-7a-Eq9"/>
+                            <constraint firstItem="Hle-vu-t1g" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="38" id="7ql-HG-2WH"/>
+                            <constraint firstItem="Hle-vu-t1g" firstAttribute="top" secondItem="Fb1-tc-iV8" secondAttribute="bottom" constant="17" id="9l7-S3-V2T"/>
+                            <constraint firstAttribute="trailing" secondItem="nKW-Dm-VDH" secondAttribute="trailing" id="AHJ-eq-o7n"/>
+                            <constraint firstItem="Fb1-tc-iV8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="38" id="EOL-Qv-cwd"/>
+                            <constraint firstItem="bmh-5g-Nxq" firstAttribute="top" secondItem="euG-8J-hoB" secondAttribute="bottom" constant="20" id="EYg-JL-PGe"/>
+                            <constraint firstItem="Fb1-tc-iV8" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-156" id="FOQ-pE-Ooa"/>
+                            <constraint firstItem="eBh-qy-xpb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="38" id="Jao-aM-YhB"/>
+                            <constraint firstItem="nKW-Dm-VDH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LtF-aK-Cut"/>
+                            <constraint firstItem="7lq-Zf-Fdz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="38" id="Nxa-17-Vdb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Fb1-tc-iV8" secondAttribute="trailing" constant="38" id="Pzr-Pi-Lii"/>
+                            <constraint firstItem="euG-8J-hoB" firstAttribute="top" secondItem="CV3-Xi-Rqu" secondAttribute="bottom" constant="21" id="SK0-pb-9SO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CV3-Xi-Rqu" secondAttribute="trailing" constant="38" id="Uec-B9-nME"/>
+                            <constraint firstItem="nKW-Dm-VDH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Vuk-OX-Sfv"/>
+                            <constraint firstItem="euG-8J-hoB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="38" id="WKj-GH-RWN"/>
+                            <constraint firstItem="7lq-Zf-Fdz" firstAttribute="top" secondItem="bmh-5g-Nxq" secondAttribute="bottom" constant="15" id="WbP-cO-H3F"/>
+                            <constraint firstItem="Hle-vu-t1g" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-103" id="cOB-O7-aQ0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="euG-8J-hoB" secondAttribute="trailing" constant="38" id="dBI-DN-K8z"/>
+                            <constraint firstItem="CV3-Xi-Rqu" firstAttribute="top" secondItem="Hle-vu-t1g" secondAttribute="bottom" constant="17" id="hfh-sF-IJw"/>
+                            <constraint firstItem="eBh-qy-xpb" firstAttribute="top" secondItem="7lq-Zf-Fdz" secondAttribute="bottom" constant="18" id="lRT-E3-HdN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Hle-vu-t1g" secondAttribute="trailing" constant="38" id="nCJ-y2-10V"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eBh-qy-xpb" secondAttribute="trailing" constant="38" id="nqF-dW-pGP"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nKW-Dm-VDH" secondAttribute="bottom" id="oua-NA-Ycn"/>
+                            <constraint firstItem="CV3-Xi-Rqu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="38" id="rW9-8i-slT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bmh-5g-Nxq" secondAttribute="trailing" constant="38" id="rpr-lg-u0S"/>
+                            <constraint firstItem="Hle-vu-t1g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s3C-Yq-Fro"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7lq-Zf-Fdz" secondAttribute="trailing" constant="38" id="uyY-RO-OuI"/>
+                            <constraint firstItem="Fb1-tc-iV8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vBh-7d-Cpa"/>
+                            <constraint firstItem="CV3-Xi-Rqu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yzg-SE-oxb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="136.25"/>
+        </scene>
+    </scenes>
+</document>
