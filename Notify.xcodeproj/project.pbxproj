@@ -16,6 +16,9 @@
 		2EE6F3C61E5BFD03003E9067 /* NotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6F3C51E5BFD03003E9067 /* NotifyTests.swift */; };
 		2EE6F3D11E5BFD03003E9067 /* NotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6F3D01E5BFD03003E9067 /* NotifyUITests.swift */; };
 		2EE6F3DF1E5C03B8003E9067 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE6F3DE1E5C03B8003E9067 /* RoundedButton.swift */; };
+		2EE6F3E11E5C166C003E9067 /* whistle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2EE6F3E01E5C166C003E9067 /* whistle.mp3 */; };
+		2EE6F3E51E5C1EC8003E9067 /* Maruvaarthai - Single  Enai Noki Paayum Thota  Dhanush  Thamarai  Sid Sriram  Gautham Menon.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2EE6F3E41E5C1EC8003E9067 /* Maruvaarthai - Single  Enai Noki Paayum Thota  Dhanush  Thamarai  Sid Sriram  Gautham Menon.mp4 */; };
+		2EE6F3E71E5C1F7A003E9067 /* BB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2EE6F3E61E5C1F7A003E9067 /* BB.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		2EE6F3D01E5BFD03003E9067 /* NotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifyUITests.swift; sourceTree = "<group>"; };
 		2EE6F3D21E5BFD03003E9067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EE6F3DE1E5C03B8003E9067 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		2EE6F3E01E5C166C003E9067 /* whistle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whistle.mp3; sourceTree = "<group>"; };
+		2EE6F3E41E5C1EC8003E9067 /* Maruvaarthai - Single  Enai Noki Paayum Thota  Dhanush  Thamarai  Sid Sriram  Gautham Menon.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Maruvaarthai - Single  Enai Noki Paayum Thota  Dhanush  Thamarai  Sid Sriram  Gautham Menon.mp4"; sourceTree = "<group>"; };
+		2EE6F3E61E5C1F7A003E9067 /* BB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BB.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +115,9 @@
 				2EE6F3BC1E5BFD03003E9067 /* Info.plist */,
 				2EE6F3B41E5BFD03003E9067 /* Notify.xcdatamodeld */,
 				2EE6F3DE1E5C03B8003E9067 /* RoundedButton.swift */,
+				2EE6F3E41E5C1EC8003E9067 /* Maruvaarthai - Single  Enai Noki Paayum Thota  Dhanush  Thamarai  Sid Sriram  Gautham Menon.mp4 */,
+				2EE6F3E61E5C1F7A003E9067 /* BB.jpg */,
+				2EE6F3E01E5C166C003E9067 /* whistle.mp3 */,
 			);
 			path = Notify;
 			sourceTree = "<group>";
@@ -241,7 +250,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EE6F3E51E5C1EC8003E9067 /* Maruvaarthai - Single  Enai Noki Paayum Thota  Dhanush  Thamarai  Sid Sriram  Gautham Menon.mp4 in Resources */,
 				2EE6F3BB1E5BFD03003E9067 /* LaunchScreen.storyboard in Resources */,
+				2EE6F3E11E5C166C003E9067 /* whistle.mp3 in Resources */,
+				2EE6F3E71E5C1F7A003E9067 /* BB.jpg in Resources */,
 				2EE6F3B81E5BFD03003E9067 /* Assets.xcassets in Resources */,
 				2EE6F3B31E5BFD03003E9067 /* Main.storyboard in Resources */,
 			);
@@ -524,6 +536,7 @@
 				2EE6F3D71E5BFD03003E9067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EE6F3D81E5BFD03003E9067 /* Build configuration list for PBXNativeTarget "NotifyTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +545,7 @@
 				2EE6F3DA1E5BFD03003E9067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EE6F3DB1E5BFD03003E9067 /* Build configuration list for PBXNativeTarget "NotifyUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +554,7 @@
 				2EE6F3DD1E5BFD03003E9067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
